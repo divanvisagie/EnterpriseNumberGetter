@@ -7,4 +7,10 @@
     <RootNamespace>EnterpriseNumberGetter</RootNamespace>
   </PropertyGroup>
 
+
+    <ItemGroup>
+    <ProjectReference Include="..\EnterpriseNumberGetter.Core\EnterpriseNumberGetter.Core.csproj" />
+  </ItemGroup>
+
+
 </Project>

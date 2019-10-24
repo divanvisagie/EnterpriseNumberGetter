@@ -1,8 +1,9 @@
 ﻿using System;
+using EnterpriseNumberGetter.Core;
 
 namespace EnterpriseNumberGetter
 {
-    public class InputManager : IInputManager
+    public class ConsoleInputManager : IInputManager
     {
         public string GetInput()
         {
